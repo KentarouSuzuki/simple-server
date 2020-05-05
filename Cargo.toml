@@ -1,4 +1,5 @@
 [workspace]
 members = [
-    "by-rocket"
+    "by-rocket",
+    "by-actix",
 ]
