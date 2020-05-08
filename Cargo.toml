@@ -2,4 +2,5 @@
 members = [
     "by-rocket",
     "by-actix",
+    "server-info"
 ]

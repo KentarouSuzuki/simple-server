@@ -2,6 +2,7 @@ use actix_web::{App, HttpServer};
 
 mod route;
 mod service;
+mod view;
 
 #[actix_rt::main]
 async fn main() -> std::io::Result<()> {

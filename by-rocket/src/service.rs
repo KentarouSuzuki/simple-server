@@ -1,3 +1,5 @@
-pub fn hello() -> &'static str {
-    "Hello, from Rocket\n"
+use server_info::basic_info::BasicInfo;
+
+pub fn get_server_info() -> BasicInfo {
+    BasicInfo::new()
 }
